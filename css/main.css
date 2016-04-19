@@ -1,0 +1,42 @@
+/*  *{outline: 1px solid rgba(225,0,0, 0.4);
+
+}*/
+
+/*--------------------------------------------------
+header
+----------------------------------------------------*/
+.header{
+	height: 80px;
+}
+.header img{
+	height: 100%;
+	padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu{
+	position: absolute;
+    padding: 10px;
+    top: 30px;
+    right: 180px;
+}
+.menu li{
+	display: inline-block;
+	list-style: none;
+    border-right: 2px solid #ccc;}
+.menu a{
+	text-decoration: none;
+	color: #ccc;
+    padding-right: 15px;
+}
+.menu li:last-child{
+	border-right: none;
+}
+
+/*--------------------------------------------------
+Nosotros
+----------------------------------------------------*/
+.Nosotros .img-banner{
+	background-image: url(../img/semilla.jpg);
+	height: 400px;
+}
