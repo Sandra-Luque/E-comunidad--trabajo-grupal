@@ -40,3 +40,52 @@ Nosotros
 	background-image: url(../img/semilla.jpg);
 	height: 400px;
 }
+.Servicios{
+	text-align: center;
+	margin: 100px 100px;
+	font-family: Arial;
+}
+.Servicios p{
+	font-size: 12px;
+	margin: 20px 50px;
+}
+.list-serv ul{
+	list-style: none;
+}
+.list-serv li{
+	display: inline-block;
+	margin: 20px auto;
+}
+.list-serv a{
+	text-decoration: none;
+	color: #088A08;	
+}
+.list-serv h5{
+	padding: 0 80px;
+}
+.list-serv .uno{
+	padding: 0 10px;
+}
+.list-serv .dos{
+	padding: 0;
+	font-size: 12.1px
+}
+.list-serv p{
+	margin: 20px 0px;
+	font-size: 9px;
+}
+.Proyectos{
+	background-color: #4B610B;
+	font-family: Arial;
+	text-align: center;
+}
+.Proyectos h4{
+	text-align: left;
+}
+.Proyectos .imagen{
+	margin: 60px auto;
+}
+.Proyectos img{
+	height: 300px;
+	width: 450px;
+}
