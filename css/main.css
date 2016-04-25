@@ -1,6 +1,6 @@
-/* */ *{outline: 1px solid rgba(225,0,0, 0.4);
+/*  *{outline: 1px solid rgba(225,0,0, 0.4);
 
-}
+}*/
 
 /*--------------------------------------------------
 header
@@ -197,14 +197,14 @@ Equipos
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
-h3{
+ .Equipos h3{
 	color: #2BB52B;
 	margin: 20px;
 }
-h2{
+.cuadrado h2,.cuadradodos h2{
 	font-size: 15px;
 }
-h4{
+ .cuadrado h4,.cuadradodos h4{
 	font-size: 10px;
 }
 .cuadrado p, .cuadradodos p{
@@ -232,24 +232,75 @@ h4{
 	text-align: center;
 	width: 300px;
 	margin: auto;
-	
 }
 		
-
-
-li{
+ .redondo li{
 	list-style: none;
 	display: inline-block;
 	margin: -10px;
-    }
+ }
 
  .redondo img, .redondodos img{
  	width: 50%;
  }
- .cuadrado img, .cuadradodos img{
- 	width: 40%;
- 	margin-left: -30px;
+ .cuadrado li, .cuadradodos li{
+ 	width: 30px;
+ 	display: inline-block;
+ 	margin: 2px;
  }
+ .cuadrado img, .cuadradodos img{
+ 	width: 100%;
+ }
+ /*--------------------------------------------------
+blog
+----------------------------------------------------*/
+.img-fondo{
+	background: url(../img/fondo2.jpg);
+	height: 335px;
+}
+.slider{
+	width: 90%;
+	height: 335px;
+	margin: auto;
+	overflow: hidden;
+}
+.slider .cont-slider-ineter{
+	display: table;
+	position: relative;
+	margin-top: 50px;
+	width: 200%;
+}
+.slider .cont-slider{
+	float: left;
+ 	position: relative;
+ 	 transition: width 2s linear 1s; 
+} 
+.cont-img{
+	display: inline-block;
+	width: 217px;
+    margin: 0 31px 0 31px;
+	font-size: 10px;
+	margin-bottom: 60px;
+}
+.cont-img img{
+	width: 100%;
+}
+.slider .cont-slider-ineter .next{
+	background: url(../img/iconos/slider/ecomunidad-16.png) no-repeat;
+	height: 34px;
+	width: 34px;
+	position: absolute;
+	top: 30%;
+	left: 48%;
+}
+.slider .cont-slider-ineter .prev{
+	background: url(../img/iconos/slider/ecomunidad-15.png) no-repeat;
+	height: 34px;
+	width: 34px;
+	position: absolute;
+	top: 30%;
+	left: 0;
+}
 
 
 
@@ -274,7 +325,7 @@ Seiguenos
  	margin-left: 100px;
  	margin-top: 80px;
  }
- p{
+.fondo p{
  	color: white;
  	margin-top: 15px;
  	margin-left: 15px;
