@@ -8,28 +8,53 @@ header
 .header{
 	height: 80px;
 }
+.header nav{
+    position: fixed;
+    top: 0;
+    width: 940px;
+    height: 78px;
+    background: #fff;
+    z-index: 100;
+    -webkit-transition: background-color .5s;
+}
 .header img{
 	height: 100%;
 	padding-left: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.menu{
+.menu1{
 	position: absolute;
-    padding: 10px;
-    top: 30px;
-    right: 180px;
+    top: 33px;
+    left: 330px;
+    -webkit-transition: background-color .5s;
 }
-.menu li{
+.menu2{
+	position: absolute;
+    top: 33px;
+    left: 574px;
+    -webkit-transition: background-color .5s;
+}
+
+.menu1 li{
 	display: inline-block;
 	list-style: none;
     border-right: 2px solid #ccc;}
-.menu a{
+.menu1 a{
 	text-decoration: none;
 	color: #ccc;
     padding-right: 15px;
 }
-.menu li:last-child{
+.menu2 li{
+	display: inline-block;
+	list-style: none;
+    border-right: 2px solid #ccc;}
+.menu2 a{
+	text-decoration: none;
+	color: #ccc;
+    padding-right: 15px;
+}
+.menu2 li:last-child{
 	border-right: none;
 }
 
@@ -134,6 +159,7 @@ Sevicios
 .list-serv li{
 	display: inline-block;
 	margin: 20px auto;
+	
 }
 .list-serv a{
 	text-decoration: none;
