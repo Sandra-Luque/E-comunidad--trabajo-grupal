@@ -147,8 +147,7 @@ Sevicios
 .Servicios{
 	text-align: center;
 	margin: 50px 50px 0 50px;
-	font-family: Arial;
-}
+	}
 .Servicios p{
 	font-size: 12px;
 	margin: 20px 50px;
@@ -188,7 +187,6 @@ Sevicios
 }
 .Proyectos{
 	background-color: #4B610B;
-	font-family: Arial;
 	text-align: center;
 	color: #fff;
 }
@@ -369,3 +367,12 @@ Pie de pagina
 	background: #C6C0C0;
 	
 }
+
+body .container{
+	@font-face{
+	font-family: OpenSans-Bold;
+	src: url(../fonts/Open/OpenSans-Bold.ttf);
+}
+
+}
+
