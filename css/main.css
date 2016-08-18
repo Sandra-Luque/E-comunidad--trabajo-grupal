@@ -364,12 +364,42 @@ Seiguenos
  /*--------------------------------------------------
 Pie de pagina
 ----------------------------------------------------*/
+.amarillo{
+	color: #ECDB23;
+}
 
 .fondoo{
 	background: #C6C0C0;
-	
 }
 
+.izquierdo {
+	position: absolute;
+	display: inline-block;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 20%;
+	left: 50px;
+
+}
+.derecho{
+	
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 90%;
+}
+
+.izquierdo{
+	margin-right: 600px;
+	margin-left: 50px;
+}
+
+.derecho p{
+	text-align: right;
+	font-size: 15px;
+}
+.izquierdo p{
+	font-size: 15px;
+}
 body .container{
 	@font-face{
 	font-family: OpenSans-Bold;
