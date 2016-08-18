@@ -1,7 +1,9 @@
 /*  *{outline: 1px solid rgba(225,0,0, 0.4);
 
 }*/
-
+body{
+	font-family: BoldItalic;
+}
 /*--------------------------------------------------
 header
 ----------------------------------------------------*/
@@ -147,7 +149,7 @@ Sevicios
 .Servicios{
 	text-align: center;
 	margin: 50px 50px 0 50px;
-	}
+}
 .Servicios p{
 	font-size: 12px;
 	margin: 20px 50px;
